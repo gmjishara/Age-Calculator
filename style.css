@@ -29,7 +29,7 @@ body {
   position: relative;
   background-color: black;
   border-radius: 6px;
-  box-shadow: 5px 8px 30px rgba(0, 0, 0);
+  box-shadow: 5px 8px 30px -5px rgba(0, 0, 0);
 }
 
 .date {
@@ -78,7 +78,7 @@ body {
   background-color: black;
   border-radius: 6px;
   border: none;
-  box-shadow: 5px 8px 30px rgba(0, 0, 0);
+  box-shadow: 5px 8px 30px -5px rgba(0, 0, 0);
   display: flex;
   gap: 0.3rem;
   flex-direction: column;
