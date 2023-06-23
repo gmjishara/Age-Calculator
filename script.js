@@ -20,5 +20,18 @@ const ageCalculate = () => {
     return
   }
 
+  let ageYear = currentYear - birthYear;
+  let ageMonth = currentMonth - birthMonth;
+  let ageDay = currentDay - birthDay;
+
+  if(ageYear<0){
+    ageMonth=ageMonth + 12;
+    ageYear=ageYear-1;
+  }
+
+  if(ageDay<0){
+    ageDay=ageDay +30 ;
+    ageMonth=ageMonth-1;
+  }
 
 };
